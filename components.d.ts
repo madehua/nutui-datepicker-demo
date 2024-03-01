@@ -9,6 +9,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    KspCropper: typeof import('./src/components/ksp-cropper/ksp-cropper.vue')['default']
+    NutAvatar: typeof import('nutui-uniapp/components/avatar/avatar.vue')['default']
     NutButton: typeof import('nutui-uniapp/components/button/button.vue')['default']
     NutCell: typeof import('nutui-uniapp/components/cell/cell.vue')['default']
     NutDatePicker: typeof import('nutui-uniapp/components/datepicker/datepicker.vue')['default']

@@ -12,6 +12,10 @@
 	<view style="margin-top: 10rpx">
 		<nut-button type="primary" @click="uploader">uploader上传</nut-button>
 	</view>
+
+	<view style="margin-top: 10rpx">
+		<nut-button type="primary" @click="avatar">avatar</nut-button>
+	</view>
 </template>
 
 <script setup lang="ts">
@@ -33,6 +37,12 @@ const menu = function () {
 const uploader = function () {
 	uni.navigateTo({
 		url: '/pages/nutui/uploader/uploader'
+	});
+};
+
+const avatar = function () {
+	uni.navigateTo({
+		url: '/pages/nutui/avatar/avatar'
 	});
 };
 </script>
