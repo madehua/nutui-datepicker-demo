@@ -16,6 +16,10 @@
 	<view style="margin-top: 10rpx">
 		<nut-button type="primary" @click="avatar">avatar</nut-button>
 	</view>
+
+  <view style="margin-top: 10rpx">
+    <nut-button type="primary" @click="tabs">tabs</nut-button>
+  </view>
 </template>
 
 <script setup lang="ts">
@@ -44,6 +48,12 @@ const avatar = function () {
 	uni.navigateTo({
 		url: '/pages/nutui/avatar/avatar'
 	});
+};
+
+const tabs = function () {
+  uni.navigateTo({
+    url: '/pages/nutui/tabs/tabs'
+  });
 };
 </script>
 
