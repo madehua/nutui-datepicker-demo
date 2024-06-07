@@ -17,9 +17,13 @@
 		<nut-button type="primary" @click="avatar">avatar</nut-button>
 	</view>
 
-  <view style="margin-top: 10rpx">
-    <nut-button type="primary" @click="tabs">tabs</nut-button>
-  </view>
+	<view style="margin-top: 10rpx">
+		<nut-button type="primary" @click="tabs">tabs</nut-button>
+	</view>
+
+	<view style="margin-top: 10rpx">
+		<nut-button type="primary" @click="swiper">swiper</nut-button>
+	</view>
 </template>
 
 <script setup lang="ts">
@@ -51,9 +55,15 @@ const avatar = function () {
 };
 
 const tabs = function () {
-  uni.navigateTo({
-    url: '/pages/nutui/tabs/tabs'
-  });
+	uni.navigateTo({
+		url: '/pages/nutui/tabs/tabs'
+	});
+};
+
+const swiper = function () {
+	uni.navigateTo({
+		url: '/pages/nutui/swiper/swiper'
+	});
 };
 </script>
 

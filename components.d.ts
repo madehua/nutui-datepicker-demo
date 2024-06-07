@@ -11,9 +11,18 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     KspCropper: typeof import('./src/components/ksp-cropper/ksp-cropper.vue')['default']
     NutActionSheet: typeof import('nutui-uniapp/components/actionsheet/actionsheet.vue')['default']
+    NutAvatar: typeof import('nutui-uniapp/components/avatar/avatar.vue')['default']
     NutButton: typeof import('nutui-uniapp/components/button/button.vue')['default']
     NutCell: typeof import('nutui-uniapp/components/cell/cell.vue')['default']
+    NutDatePicker: typeof import('nutui-uniapp/components/datepicker/datepicker.vue')['default']
+    NutDialog: typeof import('nutui-uniapp/components/dialog/dialog.vue')['default']
+    NutMenu: typeof import('nutui-uniapp/components/menu/menu.vue')['default']
+    NutMenuItem: typeof import('nutui-uniapp/components/menuitem/menuitem.vue')['default']
+    NutPopup: typeof import('nutui-uniapp/components/popup/popup.vue')['default']
+    NutSwiper: typeof import('nutui-uniapp/components/swiper/swiper.vue')['default']
+    NutSwiperItem: typeof import('nutui-uniapp/components/swiperitem/swiperitem.vue')['default']
     NutTabPane: typeof import('nutui-uniapp/components/tabpane/tabpane.vue')['default']
     NutTabs: typeof import('nutui-uniapp/components/tabs/tabs.vue')['default']
+    NutUploader: typeof import('nutui-uniapp/components/uploader/uploader.vue')['default']
   }
 }
